@@ -38,7 +38,7 @@ export class SignupComponent implements OnInit {
     this.signupPayload = {
       firstName: signupFormValues.fname,
       lastName: signupFormValues.lname,
-      email: signupFormValues.email,
+      username: signupFormValues.email,
       password: signupFormValues.password
     };
 
