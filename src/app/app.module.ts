@@ -2,10 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ListUserComponent } from './user/list-user/list-user.component';
 import { LoginComponent } from './login/login.component';
-import { AddUserComponent } from './user/add-user/add-user.component';
-import { EditUserComponent } from './user/edit-user/edit-user.component';
+
 import {routing} from "./app.routing";
 import {ReactiveFormsModule} from "@angular/forms";
 import {ApiService} from "./service/api.service";
@@ -16,10 +14,9 @@ import { SignupComponent } from './signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ListUserComponent,
+    
     LoginComponent,
-    AddUserComponent,
-    EditUserComponent,
+    
     SignupComponent
   ],
   imports: [
